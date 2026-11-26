@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>menu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bgMenu" sid="966863831478895">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="789164836896343" speed="5">
+                    <frame duration="1" hotspotX="0.500313" hotspotY="0.500556" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\awal.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play" sid="262843522488770">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="105582373969844">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612317987372827" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501031" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\mulai.png">
+                        <collision-poly>
+                            <point x="0.321012" y="0.340206" />
+                            <point x="0.678988" y="0.340206" />
+                            <point x="0.924125" y="0.498969" />
+                            <point x="0.696498" y="0.678351" />
+                            <point x="0.303502" y="0.678351" />
+                            <point x="0.07393" y="0.498969" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="382946649685749">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="bgLevel" sid="641528393442118">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378016801191643" speed="5">
+                    <frame duration="1" hotspotX="0.50104" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\lyr.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="666525930110160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="954324439402370" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="323883360698226">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855831957530544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="huruf" sid="380189120830651">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="859341030405649" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="931473624337133">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="26" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564913109938360" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\a.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\b.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\c.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\d.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\e.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\f.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\g.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\h.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\i.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\j.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\k.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\l.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\m.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\n.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\o.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\p.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\q.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\r.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\s.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\t.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\u.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\v.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\w.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\x.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\y.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\z.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="980544701323042">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201844238602967" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\gris ktk.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jawaban" sid="287384917043988">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="137706982983414" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339275093126201" speed="5">
+                    <frame duration="1" hotspotX="0.501002" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\gris_ktk-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.0541082" y="0.054" />
+                            <point x="0.498998" y="0.002" />
+                            <point x="0.95992" y="0.04" />
+                            <point x="1" y="0.5" />
+                            <point x="0.95992" y="0.96" />
+                            <point x="0.498998" y="0.982" />
+                            <point x="0.0541082" y="0.946" />
+                            <point x="0.0200401" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="736666139746932">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308450635196660" speed="5">
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.500592" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\ktk.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tempathuruf" sid="537665498079039">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="use" sid="598104619250137" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664464962698040" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\ktk-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.038" y="0.038" />
+                            <point x="0.5" y="0" />
+                            <point x="0.962" y="0.038" />
+                            <point x="1" y="0.5" />
+                            <point x="0.962" y="0.962" />
+                            <point x="0.5" y="1" />
+                            <point x="0.038" y="0.962" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hewan" sid="562956892749165">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="252693031847476">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472635763193028" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\singa.png" />
+                    <frame duration="1" hotspotX="0.501002" hotspotY="0.501002" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\zebra.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\gajah.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\monyet.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\ular.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="816072778724086">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\star.png" />
+        </object-type>
+        <object-type name="good" sid="358579591073149">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="187692117175288">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="438968079957012" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\good.png">
+                        <collision-poly>
+                            <point x="0.193122" y="0.193122" />
+                            <point x="0.5" y="0.010582" />
+                            <point x="0.806878" y="0.193122" />
+                            <point x="0.986772" y="0.5" />
+                            <point x="0.806878" y="0.806878" />
+                            <point x="0.5" y="0.986772" />
+                            <point x="0.193122" y="0.806878" />
+                            <point x="0.010582" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="next" sid="390894665408762">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="451775065430723">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161785880661175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sifa nurul safitri\OneDrive\Documents\gim gam\next.png">
+                        <collision-poly>
+                            <point x="0.244" y="0.244" />
+                            <point x="0.5" y="0.204" />
+                            <point x="0.764" y="0.236" />
+                            <point x="0.832" y="0.5" />
+                            <point x="0.752" y="0.752" />
+                            <point x="0.5" y="0.796" />
+                            <point x="0.26" y="0.74" />
+                            <point x="0.196" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>menu.xml</layout>
+        <layout>level 1.xml</layout>
+        <layout>level 2.xml</layout>
+        <layout>level 3.xml</layout>
+        <layout>level 4.xml</layout>
+        <layout>level 5.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event menu.xml</event-sheet>
+        <event-sheet>Event level 1.xml</event-sheet>
+        <event-sheet>Event level 2.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="2">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
